@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1726234173 source:c:\users\seam\desktop\win32api\menus and icons\resource.rc
+	"resource.h"
+
+1726232587 c:\users\seam\desktop\win32api\menus and icons\resource.h
+
+1726233906 source:c:\users\seam\desktop\win32api\menus and icons\main.c
+	<windows.h>
+	"resource.h"
+
