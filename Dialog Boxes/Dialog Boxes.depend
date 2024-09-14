@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1726308184 source:c:\users\seam\desktop\win32api\dialog boxes\main.c
+1726318270 source:c:\users\seam\desktop\win32api\dialog boxes\main.c
 	"resource.h"
 
-1726308018 c:\users\seam\desktop\win32api\dialog boxes\resource.h
+1726318272 c:\users\seam\desktop\win32api\dialog boxes\resource.h
 	<windows.h>
 	<tchar.h>
 
-1726308572 source:c:\users\seam\desktop\win32api\dialog boxes\resource.rc
+1726308766 source:c:\users\seam\desktop\win32api\dialog boxes\resource.rc
 	"resource.h"
 

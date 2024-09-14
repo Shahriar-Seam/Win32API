@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1726336092 source:c:\users\seam\desktop\win32api\modeless dialogs\resource.rc
+	"resource.h"
+
+1726334958 c:\users\seam\desktop\win32api\modeless dialogs\resource.h
+	<windows.h>
+	<tchar.h>
+
