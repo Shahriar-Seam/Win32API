@@ -1,0 +1,31 @@
+#include "resource.h"
+
+// Menu
+IDR_MYMENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit", ID_FILE_EXIT
+    END
+
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About", ID_HELP_ABOUT
+    END
+END
+
+// Icon
+IDI_MYICON ICON "icon.ico"
+
+// About Dialog Box
+IDD_ABOUT DIALOG 0, 0, 239, 66
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "My About Box"
+FONT 14, "Fira Code"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,174,18,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,174,35,50,14
+    GROUPBOX        "About this program...",IDC_STATIC,7,7,225,52
+    CTEXT           "A simple program with Menu, Icon and Dialog Box.\r\n\r\nCopied by Ibnul Abrar Shahriar Seam.",
+                    IDC_STATIC,16,18,144,33
+END

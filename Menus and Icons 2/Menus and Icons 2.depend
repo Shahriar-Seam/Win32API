@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1726251558 source:c:\users\seam\desktop\win32api\menus and icons 2\main.c
+	<tchar.h>
+	<windows.h>
+

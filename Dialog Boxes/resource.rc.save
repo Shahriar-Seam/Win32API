@@ -1,0 +1,15 @@
+#include "resource.h"
+
+IDR_MYMENU MENU
+
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit", ID_FILE_EXIT
+    END
+
+    POPUP "&Help"
+        MENUITEM "&About", ID_HELP_ABOUT
+        MENUITEM ""
+    END
+END
